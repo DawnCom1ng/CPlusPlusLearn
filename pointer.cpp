@@ -16,33 +16,42 @@ int main()
 
     // std::cout << *p << " " << *d << std::endl;
 
-    int x = 0;
+    // int x = 0;
 
-    int *p = nullptr;
-    int *p1 = 0;
-    int *p2 = &x;
+    // int *p = nullptr;
+    // int *p1 = 0;
+    // int *p2 = &x;
 
-    if(p1)
-    {
-        std::cout << "true" << std::endl;
-    }else{
-        std::cout << "false" << std::endl;
-    }
+    // if(p1)
+    // {
+    //     std::cout << "true" << std::endl;
+    // }else{
+    //     std::cout << "false" << std::endl;
+    // }
 
 
-    if(p2)
-    {
-        std::cout << "true" << std::endl;
-    }else{
-        std::cout << "false" << std::endl;
-    }
+    // if(p2)
+    // {
+    //     std::cout << "true" << std::endl;
+    // }else{
+    //     std::cout << "false" << std::endl;
+    // }
 
-    if(*p2)
-    {
-        std::cout << "true" << std::endl;
-    }else{
-        std::cout << "false" << std::endl;
-    }
+    // if(*p2)
+    // {
+    //     std::cout << "true" << std::endl;
+    // }else{
+    //     std::cout << "false" << std::endl;
+    // }
     
     
+    int c = 0;
+    int &d = c;
+    const int &e = c;
+    d = 3;
+    
+
+    std::cout << d << e << std::endl;
+    //std::cout << "debug" << d <<std::endl;
+
 }
