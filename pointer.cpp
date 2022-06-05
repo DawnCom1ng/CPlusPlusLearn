@@ -54,4 +54,6 @@ int main()
     std::cout << d << e << std::endl;
     //std::cout << "debug" << d <<std::endl;
 
+    std::cout << "SSH test" << std::endl;
+
 }
