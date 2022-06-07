@@ -45,15 +45,20 @@ int main()
     // }
     
     
-    int c = 0;
-    int &d = c;
-    const int &e = c;
-    d = 3;
+    // int c = 0;
+    // int &d = c;
+    // const int &e = c;
+    // d = 3;
     
 
-    std::cout << d << e << std::endl;
+    // std::cout << d << e << std::endl;
     //std::cout << "debug" << d <<std::endl;
 
-    std::cout << "SSH test" << std::endl;
+    // std::cout << "SSH test" << std::endl;
+
+    int errNumb = 0;
+    int *const curErr = &errNumb;
+    const double pi = 3.14159;
+    double const *;
 
 }
