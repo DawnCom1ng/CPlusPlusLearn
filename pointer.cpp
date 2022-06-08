@@ -56,9 +56,13 @@ int main()
 
     // std::cout << "SSH test" << std::endl;
 
-    int errNumb = 0;
-    int *const curErr = &errNumb;
-    const double pi = 3.14159;
-    double const *;
+    // int errNumb = 0;
+    // int *const curErr = &errNumb;
+    // const double pi = 3.14159;
+    // const double *pip = &pi;
+
+    std::cout << "6月8日我摆烂了！" << std::endl;
+
+    return 0;
 
 }
