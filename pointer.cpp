@@ -61,7 +61,9 @@ int main()
     // const double pi = 3.14159;
     // const double *pip = &pi;
 
-    std::cout << "6月8日我摆烂了！" << std::endl;
+    // std::cout << "6月8日我摆烂了！" << std::endl;
+
+    std::cout << "6月9日我又摆烂了" << std::endl;
 
     return 0;
 
