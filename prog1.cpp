@@ -1,5 +1,7 @@
 #include <iostream>
 
+
+extern const int ext = 1;
 int main()
 {
 	
@@ -169,6 +171,8 @@ int main()
 		}
 		std::cout << currVal << "occurse" << cnt << std::endl; 
 	}
+
+	
 
 
 	return 0;
