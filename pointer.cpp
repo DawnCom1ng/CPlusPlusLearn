@@ -1,5 +1,6 @@
 #include <iostream>
 
+//extern const int noConst;
 int main()
 {
     // int val = 42;
@@ -63,8 +64,12 @@ int main()
 
     // std::cout << "6月8日我摆烂了！" << std::endl;
 
-    std::cout << "6月9日我又摆烂了" << std::endl;
+    // std::cout << "6月9日我又摆烂了" << std::endl;
 
+    //int bug = -1;
+
+    //std::cout << noConst << std::endl;
+    std::cout << "-1" << std::endl;
     return 0;
 
 }
